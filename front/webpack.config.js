@@ -6,34 +6,51 @@ module.exports = {
 	mode: 'development',
 	devtool: 'eval',
 	resolve: {
-		extensions: ['.js', '.vue'],
+		extensions: ['.js', '.vue']
 	},
 	entry: './src/main.js',
 	module: {
 		rules: [
 			{
 				test: /\.js$/,
-				use: 'babel-loader',
+				use: 'babel-loader'
 			},
 			{
 				test: /\.vue$/,
-				use: 'vue-loader',
+				use: 'vue-loader'
 			},
 			{
 				test: /\.css$/,
-				use: ['vue-style-loader', 'css-loader'],
+				use: ['vue-style-loader', 'css-loader']
 			},
-		],
+			{
+				test: /\.s(c|a)ss$/,
+				use: [
+					'vue-style-loader',
+					'css-loader',
+					{
+						loader: 'sass-loader',
+						options: {
+							implementation: require('sass'),
+							sassOptions: {
+								fiber: require('fibers'),
+								indentedSyntax: true
+							}
+						}
+					}
+				]
+			}
+		]
 	},
 	devServer: {
 		open: true,
-		hot: true,
+		hot: true
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './public/index.html',
+			template: './public/index.html'
 		}),
 		new VueLoaderPlugin(),
-		new webpack.HotModuleReplacementPlugin(),
-	],
+		new webpack.HotModuleReplacementPlugin()
+	]
 };
