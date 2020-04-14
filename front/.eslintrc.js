@@ -4,7 +4,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:vue/essential',
 		'prettier',
-		'plugin:prettier/recommended',
+		'plugin:prettier/recommended'
 	],
 	plugins: ['prettier'],
 	rules: {
@@ -13,14 +13,13 @@ module.exports = {
 			{
 				singleQuote: true,
 				semi: true,
-				useTabs: true,
+				useTabs: false,
 				tabWidth: 2,
-				trailingComma: 'all',
 				printWidth: 80,
 				bracketSpacing: true,
-				arrowParens: 'avoid',
-			},
+				arrowParens: 'avoid'
+			}
 		],
-		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-	},
+		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+	}
 };
