@@ -1,33 +1,24 @@
 <template>
   <v-app id="app">
-    <v-app-bar app clipped-left>
-      <v-toolbar-title>BBack Ground</v-toolbar-title>
-    </v-app-bar>
+    <header-component />
     <v-content>
-      <v-col class="text-center" cols="12" sm="4">
-        <div class="my-2">
-          <v-btn depressed>Normal</v-btn>
-        </div>
-        <div class="my-2">
-          <v-btn depressed color="primary">Primary</v-btn>
-        </div>
-        <div class="my-2">
-          <v-btn depressed color="error">Error</v-btn>
-        </div>
-        <div class="my-2">
-          <v-btn depressed disabled>Disabled</v-btn>
-        </div>
-      </v-col>
+      <v-container class="fill-height" fluid>
+        Hi! This Component Container
+      </v-container>
     </v-content>
   </v-app>
 </template>
 
 <script>
+import { Layout } from './components';
+
+const { HeaderComponent } = Layout;
+
 export default {
   name: 'App',
-  data: () => ({
-    drawer: null
-  }),
+  components: {
+    HeaderComponent
+  },
   created() {
     this.$vuetify.theme.dark = true;
   }
