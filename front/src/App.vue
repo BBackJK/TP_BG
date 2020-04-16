@@ -3,7 +3,7 @@
     <header-component />
     <v-content>
       <v-container class="fill-height" fluid>
-        Hi! This Component Container
+        <router-view />
       </v-container>
     </v-content>
   </v-app>
@@ -19,8 +19,15 @@ export default {
   components: {
     HeaderComponent
   },
+  methods: {},
   created() {
     this.$vuetify.theme.dark = true;
   }
 };
 </script>
+
+<style>
+a {
+  text-decoration: none;
+}
+</style>

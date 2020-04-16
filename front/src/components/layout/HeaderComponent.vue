@@ -6,6 +6,13 @@
     <v-app-bar app clipped-left>
       <v-app-bar-nav-icon @click.stop="onClickNav" />
       <v-toolbar-title>BBack's Ground</v-toolbar-title>
+      <v-spacer></v-spacer>
+
+      <router-link to="/login">
+        <v-btn icon>
+          <v-icon>mdi-account</v-icon>
+        </v-btn>
+      </router-link>
     </v-app-bar>
   </div>
 </template>
