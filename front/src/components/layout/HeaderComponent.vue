@@ -5,7 +5,9 @@
     </v-navigation-drawer>
     <v-app-bar app clipped-left>
       <v-app-bar-nav-icon @click.stop="onClickNav" />
-      <v-toolbar-title>BBack's Ground</v-toolbar-title>
+      <router-link to="/">
+        <v-toolbar-title class="app-title">BBack's Ground</v-toolbar-title>
+      </router-link>
       <v-spacer></v-spacer>
 
       <router-link to="/login">
@@ -38,4 +40,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.app-title {
+  color: white;
+}
+</style>
