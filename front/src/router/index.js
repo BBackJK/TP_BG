@@ -52,5 +52,13 @@ export default new VueRouter({
       name: 'sign-up',
       component: Page.SignUpPage,
     },
+    {
+      path: '/404',
+      component: Page.NotFoundPage,
+    },
+    {
+      path: '*',
+      redirect: '/404',
+    },
   ],
 });

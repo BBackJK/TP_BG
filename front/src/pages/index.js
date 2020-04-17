@@ -7,6 +7,7 @@ import GamePage from './GamePage';
 import LoginPage from './LoginPage';
 import AboutPage from './AboutPage';
 import SignUpPage from './SignUpPage';
+import NotFoundPage from './NotFoundPage';
 
 export default {
   HomePage,
@@ -18,4 +19,5 @@ export default {
   LoginPage,
   AboutPage,
   SignUpPage,
+  NotFoundPage,
 };
