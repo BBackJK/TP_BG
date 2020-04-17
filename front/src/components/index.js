@@ -8,6 +8,7 @@ import Fashion from './fashion';
 import Game from './game';
 import Login from './login';
 import About from './about';
+import SignUp from './sign-up';
 
 export {
   Layout,
@@ -20,4 +21,5 @@ export {
   Game,
   Login,
   About,
+  SignUp,
 };

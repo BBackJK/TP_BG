@@ -47,5 +47,10 @@ export default new VueRouter({
       name: 'about',
       component: Page.AboutPage,
     },
+    {
+      path: '/sign-up',
+      name: 'sign-up',
+      component: Page.SignUpPage,
+    },
   ],
 });

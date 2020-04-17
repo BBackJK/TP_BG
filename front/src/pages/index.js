@@ -6,6 +6,7 @@ import FashionPage from './FashionPage';
 import GamePage from './GamePage';
 import LoginPage from './LoginPage';
 import AboutPage from './AboutPage';
+import SignUpPage from './SignUpPage';
 
 export default {
   HomePage,
@@ -15,5 +16,6 @@ export default {
   FashionPage,
   GamePage,
   LoginPage,
-  AboutPage
+  AboutPage,
+  SignUpPage,
 };
