@@ -1,17 +1,17 @@
 <template>
-  <login-component />
+  <login-card />
 </template>
 
 <script>
 import { Login } from '../components';
 
-const { LoginComponent } = Login;
+const { LoginCard } = Login;
 
 export default {
   name: 'LoginPage',
   components: {
-    LoginComponent
-  }
+    LoginCard,
+  },
 };
 </script>
 

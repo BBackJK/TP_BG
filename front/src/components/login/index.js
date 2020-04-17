@@ -1,3 +1,4 @@
-import LoginComponent from './LoginComponent';
+import LoginCard from './LoginCard';
+import LoginForm from './LoginForm';
 
-export default { LoginComponent };
+export default { LoginCard, LoginForm };
