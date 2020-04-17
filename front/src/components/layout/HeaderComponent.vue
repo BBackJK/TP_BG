@@ -10,11 +10,16 @@
       </router-link>
       <v-spacer></v-spacer>
 
-      <router-link to="/login">
-        <v-btn icon>
-          <v-icon>mdi-account</v-icon>
-        </v-btn>
-      </router-link>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <router-link to="/login">
+            <v-btn icon v-on="on">
+              <v-icon>mdi-account</v-icon>
+            </v-btn>
+          </router-link>
+        </template>
+        <span>로그인이 필요합니다</span>
+      </v-tooltip>
     </v-app-bar>
   </div>
 </template>
@@ -25,18 +30,18 @@ import NavListComponent from './NavListComponent';
 export default {
   name: 'Header',
   components: {
-    NavListComponent
+    NavListComponent,
   },
   data() {
     return {
-      drawer: null
+      drawer: null,
     };
   },
   methods: {
     onClickNav() {
       this.drawer = !this.drawer;
-    }
-  }
+    },
+  },
 };
 </script>
 
