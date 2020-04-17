@@ -63,6 +63,7 @@
           btnColor="secondary"
           btnClick="reset"
           :btnDisable="valid"
+          class="reset-button"
         />
       </v-form>
     </v-card-text>
@@ -112,4 +113,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.reset-button {
+  float: right;
+}
+</style>
