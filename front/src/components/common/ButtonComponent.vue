@@ -1,6 +1,11 @@
 <template>
-  <v-btn v-bind:color="this.color" @click="clickButton">
-    {{ buttonName }}
+  <v-btn
+    :disabled="this.btnDisable"
+    v-bind:color="this.btnColor"
+    @click="clickButton"
+    class="mr-4"
+  >
+    {{ btnName }}
   </v-btn>
 </template>
 
@@ -10,15 +15,19 @@ import { EventBus } from '../../util';
 export default {
   name: 'Button',
   props: {
-    color: String,
-    buttonName: String,
-    eventMethods: String
+    btnColor: String,
+    btnName: String,
+    btnClick: String,
+    btnDisable: {
+      type: Boolean,
+      default: false,
+    },
   },
   methods: {
     clickButton() {
-      EventBus.$emit(this.eventMethods);
-    }
-  }
+      EventBus.$emit(this.btnClick);
+    },
+  },
 };
 </script>
 
