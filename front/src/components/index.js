@@ -1,6 +1,3 @@
-/**
- * This Folder is component set folder.
- */
 import Layout from './layout';
 import Common from './common';
 import Home from './home';
@@ -22,5 +19,5 @@ export {
   Fashion,
   Game,
   Login,
-  About
+  About,
 };

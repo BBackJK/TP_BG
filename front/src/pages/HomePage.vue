@@ -10,7 +10,7 @@ const { HomeComponent } = Home;
 export default {
   name: 'HomePage',
   components: {
-    HomeComponent
-  }
+    HomeComponent,
+  },
 };
 </script>

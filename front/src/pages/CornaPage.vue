@@ -10,7 +10,7 @@ const { CornaComponent } = Corna;
 export default {
   name: 'CornaPage',
   components: {
-    CornaComponent
-  }
+    CornaComponent,
+  },
 };
 </script>

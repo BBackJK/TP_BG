@@ -10,7 +10,7 @@ const { CalendarComponent } = Calendar;
 export default {
   name: 'CalendarPage',
   components: {
-    CalendarComponent
-  }
+    CalendarComponent,
+  },
 };
 </script>

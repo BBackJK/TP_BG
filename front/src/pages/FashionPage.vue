@@ -10,7 +10,7 @@ const { FashionComponent } = Fashion;
 export default {
   name: 'FashionPage',
   components: {
-    FashionComponent
-  }
+    FashionComponent,
+  },
 };
 </script>

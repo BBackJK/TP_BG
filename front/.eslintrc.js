@@ -4,7 +4,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/essential',
     'prettier',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   plugins: ['prettier'],
   rules: {
@@ -18,9 +18,10 @@ module.exports = {
         printWidth: 80,
         bracketSpacing: true,
         arrowParens: 'avoid',
-        endOfLine: 'auto'
-      }
+        endOfLine: 'auto',
+        trailingComma: 'all',
+      },
     ],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off'
-  }
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+  },
 };

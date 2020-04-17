@@ -10,7 +10,7 @@ const { GameComponent } = Game;
 export default {
   name: 'GamePage',
   components: {
-    GameComponent
-  }
+    GameComponent,
+  },
 };
 </script>

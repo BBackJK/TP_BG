@@ -10,7 +10,7 @@ const { DashboardComponent } = Dashboard;
 export default {
   name: 'DashboardPage',
   components: {
-    DashboardComponent
-  }
+    DashboardComponent,
+  },
 };
 </script>

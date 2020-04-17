@@ -10,42 +10,42 @@ export default new VueRouter({
     {
       path: '/',
       name: 'Home',
-      component: Page.HomePage
+      component: Page.HomePage,
     },
     {
       path: '/dashboard',
       name: 'dashboard',
-      component: Page.DashboardPage
+      component: Page.DashboardPage,
     },
     {
       path: '/calendar',
       name: 'calendar',
-      component: Page.CalendarPage
+      component: Page.CalendarPage,
     },
     {
       path: '/corna',
       name: 'corna',
-      component: Page.CornaPage
+      component: Page.CornaPage,
     },
     {
       path: '/fashion',
       name: 'fashion',
-      component: Page.FashionPage
+      component: Page.FashionPage,
     },
     {
       path: '/game',
       name: 'game',
-      component: Page.GamePage
+      component: Page.GamePage,
     },
     {
       path: '/login',
       name: 'login',
-      component: Page.LoginPage
+      component: Page.LoginPage,
     },
     {
       path: '/about',
       name: 'about',
-      component: Page.AboutPage
-    }
-  ]
+      component: Page.AboutPage,
+    },
+  ],
 });
