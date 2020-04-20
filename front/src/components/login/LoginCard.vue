@@ -1,10 +1,12 @@
 <template>
   <v-row align="center" justify="center">
-    <v-col cols="12" sm="10" md="4">
+    <v-col cols="12" sm="10" md="5">
       <v-card class="elevation-12">
         <login-form />
       </v-card>
-      <span> forgot email or password ?</span>
+      <router-link to="/find-account">
+        <span>forgot email or password ?</span>
+      </router-link>
     </v-col>
   </v-row>
 </template>

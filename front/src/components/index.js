@@ -6,9 +6,11 @@ import Calendar from './calendar';
 import Corna from './corna';
 import Fashion from './fashion';
 import Game from './game';
-import Login from './login';
 import About from './about';
+
+import Login from './login';
 import SignUp from './sign-up';
+import FindAccount from './find-account';
 
 export {
   Layout,
@@ -22,4 +24,5 @@ export {
   Login,
   About,
   SignUp,
+  FindAccount,
 };

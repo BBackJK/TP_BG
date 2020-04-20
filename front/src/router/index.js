@@ -38,19 +38,24 @@ export default new VueRouter({
       component: Page.GamePage,
     },
     {
-      path: '/login',
-      name: 'login',
-      component: Page.LoginPage,
-    },
-    {
       path: '/about',
       name: 'about',
       component: Page.AboutPage,
     },
     {
+      path: '/login',
+      name: 'login',
+      component: Page.LoginPage,
+    },
+    {
       path: '/sign-up',
       name: 'sign-up',
       component: Page.SignUpPage,
+    },
+    {
+      path: '/find-account',
+      name: 'find-account',
+      component: Page.FindAccountPage,
     },
     {
       path: '/404',
