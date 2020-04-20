@@ -10,13 +10,13 @@
         </v-list-item-content>
       </v-list-item>
     </router-link>
-    <router-link to="/dashboard">
+    <router-link to="/posting">
       <v-list-item link>
         <v-list-item-action>
           <v-icon>mdi-view-dashboard</v-icon>
         </v-list-item-action>
         <v-list-item-content>
-          <v-list-item-title>Dashboard</v-list-item-title>
+          <v-list-item-title>Posting</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </router-link>
@@ -75,6 +75,6 @@
 
 <script>
 export default {
-  name: 'NavList'
+  name: 'NavList',
 };
 </script>

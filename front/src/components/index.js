@@ -1,7 +1,7 @@
 import Layout from './layout';
 import Common from './common';
 import Home from './home';
-import Dashboard from './dashboard';
+import Posting from './posting';
 import Calendar from './calendar';
 import Corna from './corna';
 import Fashion from './fashion';
@@ -16,7 +16,7 @@ export {
   Layout,
   Common,
   Home,
-  Dashboard,
+  Posting,
   Calendar,
   Corna,
   Fashion,

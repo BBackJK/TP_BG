@@ -13,9 +13,9 @@ export default new VueRouter({
       component: Page.HomePage,
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      component: Page.DashboardPage,
+      path: '/posting',
+      name: 'posting',
+      component: Page.PostingPage,
     },
     {
       path: '/calendar',

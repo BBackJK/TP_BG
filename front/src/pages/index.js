@@ -1,5 +1,5 @@
 import HomePage from './HomePage';
-import DashboardPage from './DashboardPage';
+import PostingPage from './PostingPage';
 import CalendarPage from './CalendarPage';
 import CornaPage from './CornaPage';
 import FashionPage from './FashionPage';
@@ -13,7 +13,7 @@ import NotFoundPage from './NotFoundPage';
 
 export default {
   HomePage,
-  DashboardPage,
+  PostingPage,
   CalendarPage,
   CornaPage,
   FashionPage,
