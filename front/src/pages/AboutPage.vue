@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { About } from '../components';
+import { About } from '@/components';
 
 const { AboutComponent } = About;
 

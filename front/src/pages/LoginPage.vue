@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Login } from '../components';
+import { Login } from '@/components';
 
 const { LoginCard } = Login;
 

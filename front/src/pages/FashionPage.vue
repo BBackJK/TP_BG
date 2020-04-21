@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Fashion } from '../components';
+import { Fashion } from '@/components';
 
 const { FashionComponent } = Fashion;
 

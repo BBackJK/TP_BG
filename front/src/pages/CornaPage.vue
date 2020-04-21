@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Corna } from '../components';
+import { Corna } from '@/components';
 
 const { CornaComponent } = Corna;
 

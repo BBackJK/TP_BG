@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import { EventBus } from '../util';
-import { FindAccount } from '../components';
+import { EventBus } from '@/util';
+import { FindAccount } from '@/components';
 
 const { EmailFindForm, PasswordFindForm } = FindAccount;
 

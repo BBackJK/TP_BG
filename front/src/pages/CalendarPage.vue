@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Calendar } from '../components';
+import { Calendar } from '@/components';
 
 const { CalendarComponent } = Calendar;
 

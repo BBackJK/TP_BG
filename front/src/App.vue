@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { Layout } from './components';
+import { Layout } from '@/components';
 
 const { HeaderComponent } = Layout;
 

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { Posting } from '../components';
+import { Posting } from '@/components';
 
 const { PostingCard, PostingTab } = Posting;
 

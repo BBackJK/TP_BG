@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { SignUp } from '../components';
+import { SignUp } from '@/components';
 
 const { SignUpCard } = SignUp;
 

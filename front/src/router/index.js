@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Page from '../pages';
+import Page from '@/pages';
 
 Vue.use(VueRouter);
 
