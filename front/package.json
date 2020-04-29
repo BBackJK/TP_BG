@@ -5,7 +5,8 @@
 	"main": "./src/main.js",
 	"scripts": {
 		"lint": "eslint --ext .js,.vue src",
-		"dev": "webpack-dev-server"
+		"dev": "webpack-dev-server",
+		"build": "webpack"
 	},
 	"keywords": [],
 	"author": "",
