@@ -16,8 +16,11 @@
     "@nestjs/common": "^7.0.9",
     "@nestjs/core": "^7.0.9",
     "@nestjs/platform-express": "^7.0.9",
+    "@nestjs/typeorm": "^7.0.0",
+    "mysql": "^2.18.1",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.5.5",
+    "typeorm": "^0.2.24"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
