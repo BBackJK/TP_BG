@@ -1,8 +1,10 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
-export class User {
-  @PrimaryGeneratedColumn()
+@Entity({ name: 'user' })
+export class UserEntity {
+  @PrimaryGeneratedColumn({
+    name: 'userId',
+  })
   id: number;
 
   @Column()
@@ -13,6 +15,9 @@ export class User {
 
   @Column()
   password: string;
+
+  @Column({ type: 'datetime' })
+  lastLoginAt: string;
 
   @Column({ type: 'datetime' })
   createAt: string;
